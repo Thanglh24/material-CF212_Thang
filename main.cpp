@@ -1,12 +1,15 @@
 #include <bits/stdc++.h>
-#include "employer.h"
-#include "customer.h"
-
 using namespace std;
-int main()
-{
-	customer KH1("Thang", 2000, "Hagiang", 9999, "0976666666", 300);
-	customer KH2("Nguyen Van A", 1999, "Hanoi", 2156, "035025854", 500);
-	cout<<KH1.getID()<<endl;
-	return 0;
+#include "order.h"
+#include "banhcuon.h"
+#include "banhcuon_chay.h"
+#include "banhcuon_mong.h"
+#include "banhcuon_thit.h"
+#include "banhcuon_dacbiet.h"
+int main(){
+	banhcuon_chay chay(100.0,10000,100.0,15000);
+	banhcuon_mong mong(100.0,10000,100.0,20000);
+	banhcuon_thit thit(100.0,10000,100.0,10000);
+	banhcuon_dacbiet dacbiet(100.0,10000,100.0,20000,100.0,30000);
+
 }
